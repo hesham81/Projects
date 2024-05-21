@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Comparison</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1d2026;
+            display: flex;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .image-container {
+            display: flex;
+            overflow: hidden;
+            border-radius: 10px;
+            max-width: 800px; /* Set a maximum width for the container */
+            margin: 0 auto; /* Center the container */
+        }
+
+        .image-with-text {
+            text-align: center;
+            color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            flex: 1; /* Equal width for both images */
+            max-width: 50%; /* Maximum width for each image */
+        }
+
+        .image-with-text h2 {
+            margin-bottom: 10px;
+        }
+
+        .image-with-text img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #fff;
+            border-radius: 8px;
+            margin-top: 10px;
+            transition: transform 0.3s;
+        }
+
+        .image-with-text img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <div class="image-with-text">
+            <h2>Before</h2>
+            <img src="Before.jpg" alt="Before Image">
+        </div>
+        <div class="image-with-text">
+            <h2>After</h2>
+            <img src="After.jpg" alt="After Image">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="stylesheet" href="Lambb.css">
+    <title>VueLamp</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images/menu.png" class="menu-img">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li>
+                    <a href="#">Lastes Update</a>
+                </li>
+                <li>
+                    <a href="#">Modern</a>
+                </li>
+                <li>
+                    <a href="Team.html">Team</a>
+                </li>
+                <li>
+                    <a href="contact us.html">contact us </a>
+                </li>
+            </ul>
+            <button type="button" onclick="toggleBtn()" id="btn">
+                <!--Because If Iam But "Click Here " Not Display all -->
+                <span>
+
+                </span>
+            </button>
+        </nav>
+        <div class="lamp-container">
+            <img src="images/lamp.png" class="Lamp">
+            <img src="images/light.png" class="Light" id="Light">
+        </div>
+        <div class="text-container">
+            <h1>
+                
+                Lastest<br> in Lighting
+            </h1>
+            <p>
+               This Is The First Lamp For Multimedia Project Team 
+               we're making Sample Page For Dr:Alaa And Dr:Sayed Oradbi 
+               And We Hope That We Can Take full mark  
+            </p>
+            <a href="#">Check The Main Lamp Web</a>
+            <div class="control">
+                <p>
+                    04
+                    <div class="line">
+                        <span></span>
+                    </div>
+                    <p>05</p>
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+    
+    <!-- Java Script Section Of The Lampvision Light Opacity-->
+    <script>
+        var btn = document.getElementById("btn");
+        var light = document.getElementById("Light");
+        function toggleBtn()
+        {
+            btn.classList.toggle("active");
+            light.classList.toggle("on");
+        }
+
+    </script>
+</body>
+</html>
