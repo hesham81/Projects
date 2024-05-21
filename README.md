@@ -13,3 +13,15 @@ Methods Used :
 1.RC4 
 2.Ceaser Cipher 
 3.Feistal Cipher 
+-------------------------------------------------------------------------------
+To Run All Files Run This Commands :
+
+pip install sqlite3
+
+pip install tkinter
+
+pip install customtkinter
+
+pip install mysqlite
+
+pip install Cryptography
