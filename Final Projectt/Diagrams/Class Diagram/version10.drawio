@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.9.0" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.9.0" pages="8">
   <diagram name="main" id="xpSSESCQW42gkurEcJAx">
     <mxGraphModel dx="2657" dy="1798" grid="1" gridSize="30" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -479,7 +479,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0E97d4MEge5TzQr-1SJ9-138" value="&lt;b&gt;creditCard&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;arcSize=20;fontSize=21;" parent="1" vertex="1">
-          <mxGeometry x="1310" y="120" width="140" height="130" as="geometry" />
+          <mxGeometry x="1310" y="110" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="0E97d4MEge5TzQr-1SJ9-139" value="card_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;arcSize=20;fontSize=21;" parent="0E97d4MEge5TzQr-1SJ9-138" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -608,7 +608,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="271-X44B35lI0F_FkhUP" name="Trip SubSystem">
-    <mxGraphModel dx="3018" dy="2080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3018" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -750,6 +750,107 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JQwq3xYdDQGJ3E1igkM8" name="Flight SubSystem">
+    <mxGraphModel dx="2399" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dd5spfmnblDJFzU5kDqp-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="dd5spfmnblDJFzU5kDqp-1" target="dd5spfmnblDJFzU5kDqp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5spfmnblDJFzU5kDqp-1" value="Flight" style="swimlane;whiteSpace=wrap;html=1;arcSize=20;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry y="460" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5spfmnblDJFzU5kDqp-2" value="flightId:String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;arcSize=20;fontSize=21;" vertex="1" parent="dd5spfmnblDJFzU5kDqp-1">
+          <mxGeometry y="22" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5spfmnblDJFzU5kDqp-3" value="flightPrice:Double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;arcSize=20;fontSize=21;" vertex="1" parent="dd5spfmnblDJFzU5kDqp-1">
+          <mxGeometry y="50" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5spfmnblDJFzU5kDqp-5" value="arrivalSeats:Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;arcSize=20;fontSize=21;" vertex="1" parent="dd5spfmnblDJFzU5kDqp-1">
+          <mxGeometry y="110" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5spfmnblDJFzU5kDqp-6" value="availableSeats:Seats" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;arcSize=20;fontSize=21;" vertex="1" parent="dd5spfmnblDJFzU5kDqp-1">
+          <mxGeometry y="150" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5spfmnblDJFzU5kDqp-4" value="departure_Airport:String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;arcSize=20;fontSize=21;" vertex="1" parent="dd5spfmnblDJFzU5kDqp-1">
+          <mxGeometry y="82" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5spfmnblDJFzU5kDqp-7" value="Flight Departure" style="swimlane;whiteSpace=wrap;html=1;arcSize=20;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="740" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5spfmnblDJFzU5kDqp-9" value="arrivalTime:DateTime" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;arcSize=20;fontSize=21;" vertex="1" parent="dd5spfmnblDJFzU5kDqp-7">
+          <mxGeometry y="76" width="230" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5spfmnblDJFzU5kDqp-10" value="departureTime:DateTime" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;arcSize=20;fontSize=21;" vertex="1" parent="dd5spfmnblDJFzU5kDqp-7">
+          <mxGeometry y="48" width="250" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5spfmnblDJFzU5kDqp-12" value="flightDepartureId:String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;arcSize=20;fontSize=21;" vertex="1" parent="dd5spfmnblDJFzU5kDqp-7">
+          <mxGeometry y="22" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5spfmnblDJFzU5kDqp-13" value="arrivalDay:DateTime" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;arcSize=20;fontSize=21;" vertex="1" parent="dd5spfmnblDJFzU5kDqp-7">
+          <mxGeometry y="150" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5spfmnblDJFzU5kDqp-8" value="departureDay:DateTime" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;arcSize=20;fontSize=21;" vertex="1" parent="dd5spfmnblDJFzU5kDqp-7">
+          <mxGeometry y="110" width="240" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5spfmnblDJFzU5kDqp-14" value="Seat" style="swimlane;whiteSpace=wrap;html=1;arcSize=20;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="410" y="490" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5spfmnblDJFzU5kDqp-16" value="seatId:String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;arcSize=20;fontSize=21;" vertex="1" parent="dd5spfmnblDJFzU5kDqp-14">
+          <mxGeometry y="20" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5spfmnblDJFzU5kDqp-17" value="seatEconomy:String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;arcSize=20;fontSize=21;" vertex="1" parent="dd5spfmnblDJFzU5kDqp-14">
+          <mxGeometry y="48" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="dd5spfmnblDJFzU5kDqp-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="dd5spfmnblDJFzU5kDqp-4" target="dd5spfmnblDJFzU5kDqp-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GFcsrx8IceGR_oujWDnq" name="payments SubSystem">
+    <mxGraphModel dx="1084" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k2bTm9xS9x1CHQgWaNDN-1" value="Payment" style="swimlane;whiteSpace=wrap;html=1;arcSize=20;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="440" y="60" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="k2bTm9xS9x1CHQgWaNDN-2" value="paymentId:String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;arcSize=20;fontSize=21;" vertex="1" parent="k2bTm9xS9x1CHQgWaNDN-1">
+          <mxGeometry y="22" width="250" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="k2bTm9xS9x1CHQgWaNDN-3" value="paymentMethod:String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;arcSize=20;fontSize=21;" vertex="1" parent="k2bTm9xS9x1CHQgWaNDN-1">
+          <mxGeometry y="46" width="250" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="k2bTm9xS9x1CHQgWaNDN-4" value="paymentAmount:String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;arcSize=20;fontSize=21;" vertex="1" parent="k2bTm9xS9x1CHQgWaNDN-1">
+          <mxGeometry y="70" width="250" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="k2bTm9xS9x1CHQgWaNDN-5" value="paymentDate:DateTime" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;arcSize=20;fontSize=21;" vertex="1" parent="k2bTm9xS9x1CHQgWaNDN-1">
+          <mxGeometry y="98" width="250" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="k2bTm9xS9x1CHQgWaNDN-9" value="currency:String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;arcSize=20;fontSize=21;" vertex="1" parent="k2bTm9xS9x1CHQgWaNDN-1">
+          <mxGeometry y="140" width="250" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="eoJpKAWlToiJ0qrgKLZ7" name="Users SubSystem">
+    <mxGraphModel dx="1084" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4UdeIMiVlTUFyHBdOxE-" name="Reservations">
+    <mxGraphModel dx="1084" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HAalVj52g3IkjUGYXhyi" name="Updated Main">
     <mxGraphModel dx="1084" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
